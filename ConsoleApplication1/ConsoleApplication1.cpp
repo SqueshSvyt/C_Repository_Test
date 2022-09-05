@@ -11,10 +11,10 @@ int Factorial(int a) {
 }
 
 int main() {
-	cout << "Enter: ";
+	cout << "Enter a number: ";
 	int a;
 	cin >> a;
-	cout << Factorial(a);
+	cout << Factorial(a) << endl;
 	system("pause");
 	return 0;
 }
